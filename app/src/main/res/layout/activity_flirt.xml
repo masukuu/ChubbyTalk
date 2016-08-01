@@ -1,0 +1,69 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GrettingsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#BBDEFB"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#0D47A1"
+            android:gravity="center_horizontal"
+            android:padding="12dp"
+            android:text="Flirt"
+            android:textAllCaps="true"
+            android:textColor="#FFFFfF"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            style="@style/HeaderFont"
+            android:onClick="AvailableTonight"
+            android:text="Are you available tonight?" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+
+
+        <Button
+            style="@style/HeaderFont"
+            android:onClick="HaveLunch"
+            android:text="May I have lunch with you?" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+
+        <Button
+            style="@style/HeaderFont"
+            android:onClick="Beautiful"
+            android:text="You’re so beautiful." />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+
+        <Button
+            style="@style/HeaderFont"
+            android:onClick="PhoneNumber"
+            android:text="May I have your phone number?" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,77 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GrettingsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#BBDEFB"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#0D47A1"
+            android:gravity="center_horizontal"
+            android:padding="12dp"
+            android:text="Swear Words"
+            android:textAllCaps="true"
+            android:textColor="#FFFFfF"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            style="@style/HeaderFont"
+            android:onClick="GoTheHell"
+            android:text="Go the hell" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+
+
+        <Button
+            style="@style/HeaderFont"
+            android:onClick="Shit"
+            android:text="Eat shit" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+
+        <Button
+            style="@style/HeaderFont"
+            android:onClick="Idiot"
+            android:text="Are you idiot?" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+
+        <Button
+            style="@style/HeaderFont"
+            android:onClick="FuckOff"
+            android:text="Fuck off" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+
+        <Button
+            style="@style/HeaderFont"
+            android:onClick="WTF"
+            android:text="WTF" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+    </LinearLayout>
+</ScrollView>

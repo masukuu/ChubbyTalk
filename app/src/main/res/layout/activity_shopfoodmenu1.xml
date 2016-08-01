@@ -1,0 +1,103 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.alab.myapplication.MainActivity">
+
+<LinearLayout
+    android:background="#BBDEFB"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            style="@style/speaker"
+            android:layout_weight="1"
+            android:onClick="Cz" />
+
+        <TextView
+            style="@style/text"
+            android:layout_weight="5"
+            android:text="????????" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            style="@style/speaker"
+            android:layout_weight="1"
+            android:onClick="Cz" />
+
+        <TextView
+            style="@style/text"
+            android:layout_weight="5"
+            android:text="??? ? ?????" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            style="@style/speaker"
+            android:layout_weight="1"
+            android:onClick="Cz" />
+
+        <TextView
+            style="@style/text"
+            android:layout_weight="5"
+            android:text="??????????" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            style="@style/speaker"
+            android:layout_weight="1"
+            android:onClick="Cz" />
+
+        <TextView
+            style="@style/text"
+            android:layout_weight="5"
+            android:text="Good  evening." />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            style="@style/speaker"
+            android:layout_weight="1"
+            android:onClick="Cz" />
+
+        <TextView
+            style="@style/text"
+            android:layout_weight="5"
+            android:text="Mužete mi dát jídelní lístek?" />
+
+    </LinearLayout>
+
+</LinearLayout>
+    </ScrollView>
+
