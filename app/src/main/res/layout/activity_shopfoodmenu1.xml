@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.alab.myapplication.MainActivity">
+    tools:context="com.example.alab.myapplication.ShopFoodActivity">
 
 <LinearLayout
     android:background="#BBDEFB"
@@ -11,6 +11,18 @@
     android:layout_width="match_parent"
     android:orientation="vertical">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#0D47A1"
+        android:gravity="center_horizontal"
+        android:padding="12dp"
+        android:text="Can you give the menu?"
+        android:textAllCaps="true"
+        android:textColor="#FFFFfF"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
 
     <LinearLayout
         android:layout_height="wrap_content"
@@ -20,12 +32,12 @@
         <ImageView
             style="@style/speaker"
             android:layout_weight="1"
-            android:onClick="Cz" />
+            android:onClick="playSound" />
 
         <TextView
             style="@style/text"
             android:layout_weight="5"
-            android:text="????????" />
+            android:text="可以给我菜单吧？" />
 
     </LinearLayout>
 
@@ -38,12 +50,12 @@
         <ImageView
             style="@style/speaker"
             android:layout_weight="1"
-            android:onClick="Cz" />
+            android:onClick="playSound" />
 
         <TextView
             style="@style/text"
             android:layout_weight="5"
-            android:text="??? ? ?????" />
+            android:text="메뉴판 좀 주실래요?" />
 
     </LinearLayout>
 
@@ -55,12 +67,12 @@
         <ImageView
             style="@style/speaker"
             android:layout_weight="1"
-            android:onClick="Cz" />
+            android:onClick="playSound" />
 
         <TextView
             style="@style/text"
             android:layout_weight="5"
-            android:text="??????????" />
+            android:text="可唔可以俾菜單我睇" />
 
     </LinearLayout>
 
@@ -72,12 +84,12 @@
         <ImageView
             style="@style/speaker"
             android:layout_weight="1"
-            android:onClick="Cz" />
+            android:onClick="playSound" />
 
         <TextView
             style="@style/text"
             android:layout_weight="5"
-            android:text="Good  evening." />
+            android:text="可以給我菜單嗎?" />
 
     </LinearLayout>
 
@@ -89,7 +101,7 @@
         <ImageView
             style="@style/speaker"
             android:layout_weight="1"
-            android:onClick="Cz" />
+            android:onClick="playSound" />
 
         <TextView
             style="@style/text"

@@ -17,12 +17,16 @@ public class ExtraActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_extra);
     }
+    public void playSound(View v) {
+        int id = v.getId();
+        SoundPlayer.playSound(id, this);
+    }
 
     /**
      * This method is called when the mean button is clicked.
      */
     public void mean(View view) {
-        Intent intent = new Intent(ExtraActivity.this, Activity.class);
+        Intent intent = new Intent(ExtraActivity.this, Extramenu1Activity.class);
         startActivity(intent);
     }
 
@@ -30,7 +34,7 @@ public class ExtraActivity extends AppCompatActivity {
      * This method is called when the Got button is clicked.
      */
     public void Got(View view) {
-        Intent intent = new Intent(ExtraActivity.this, Activity.class);
+        Intent intent = new Intent(ExtraActivity.this, Extramenu2Activity.class);
         startActivity(intent);
     }
 
@@ -38,7 +42,7 @@ public class ExtraActivity extends AppCompatActivity {
      * This method is called when the DonnotKnow button is clicked.
      */
     public void DonnotKnow(View view) {
-        Intent intent = new Intent(ExtraActivity.this, Activity.class);
+        Intent intent = new Intent(ExtraActivity.this, Extramenu3Activity.class);
         startActivity(intent);
     }
 
@@ -46,7 +50,7 @@ public class ExtraActivity extends AppCompatActivity {
      * This method is called when the Really button is clicked.
      */
     public void Really(View view) {
-        Intent intent = new Intent(ExtraActivity.this, Activity.class);
+        Intent intent = new Intent(ExtraActivity.this, Extramenu4Activity.class);
         startActivity(intent);
     }
 }

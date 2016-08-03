@@ -1,0 +1,115 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.alab.myapplication.ShopFoodActivity">
+
+    <LinearLayout
+        android:background="#BBDEFB"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#0D47A1"
+            android:gravity="center_horizontal"
+            android:padding="12dp"
+            android:text="Can you give the menu?"
+            android:textAllCaps="true"
+            android:textColor="#FFFFfF"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                style="@style/speaker"
+                android:layout_weight="1"
+                android:onClick="playSound" />
+
+            <TextView
+                style="@style/text"
+                android:layout_weight="5"
+                android:text="有優惠嗎?" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                style="@style/speaker"
+                android:layout_weight="1"
+                android:onClick="playSound" />
+
+            <TextView
+                style="@style/text"
+                android:layout_weight="5"
+                android:text="할인 받을 수 있나요?" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                style="@style/speaker"
+                android:layout_weight="1"
+                android:onClick="playSound" />
+
+            <TextView
+                style="@style/text"
+                android:layout_weight="5"
+                android:text="有冇優惠" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                style="@style/speaker"
+                android:layout_weight="1"
+                android:onClick="playSound" />
+
+            <TextView
+                style="@style/text"
+                android:layout_weight="5"
+                android:text="有優惠嗎?" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                style="@style/speaker"
+                android:layout_weight="1"
+                android:onClick="playSound" />
+
+            <TextView
+                style="@style/text"
+                android:layout_weight="5"
+                android:text="Je možná nějaká sleva?" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
+

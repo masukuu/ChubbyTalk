@@ -18,28 +18,25 @@ public class ShopFoodActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_shopfood);
     }
-
-    /**
-     * This method is called when the Menu button is clicked.
-     */
-    public void Menu(View view) {
-        Intent intent = new Intent(ShopFoodActivity.this, Activity.class);
-        startActivity(intent);
+    public void playSound(View v) {
+        int id = v.getId();
+        SoundPlayer.playSound(id, this);
     }
 
     /**
      * This method is called when the Menu button is clicked.
      */
     public void Menu(View view) {
-        Intent intent = new Intent(ShopFoodActivity.this, Activity.class);
+        Intent intent = new Intent(ShopFoodActivity.this, ShopFoodmenu1Activity.class);
         startActivity(intent);
     }
+
 
     /**
      * This method is called when the Recommed button is clicked.
      */
     public void Recommed(View view) {
-        Intent intent = new Intent(ShopFoodActivity.this, Activity.class);
+        Intent intent = new Intent(ShopFoodActivity.this, ShopFoodmenu2Activity.class);
         startActivity(intent);
     }
 
@@ -47,7 +44,7 @@ public class ShopFoodActivity extends AppCompatActivity {
      * This method is called when the HowMuch button is clicked.
      */
     public void HowMuch(View view) {
-        Intent intent = new Intent(ShopFoodActivity.this, Activity.class);
+        Intent intent = new Intent(ShopFoodActivity.this, ShopFoodmenu3Activity.class);
         startActivity(intent);
     }
 
@@ -55,7 +52,7 @@ public class ShopFoodActivity extends AppCompatActivity {
      * This method is called when the Discount button is clicked.
      */
     public void Discount(View view) {
-        Intent intent = new Intent(ShopFoodActivity.this, Activity.class);
+        Intent intent = new Intent(ShopFoodActivity.this, ShopFoodmenu4Activity.class);
         startActivity(intent);
     }
 }

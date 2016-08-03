@@ -17,12 +17,16 @@ public class GuideActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_guide);
     }
+    public void playSound(View v) {
+        int id = v.getId();
+        SoundPlayer.playSound(id, this);
+    }
 
     /**
      * This method is called when the Where button is clicked.
      */
     public void Where(View view) {
-        Intent intent = new Intent(GuideActivity.this, Activity.class);
+        Intent intent = new Intent(GuideActivity.this, Guidemenu1Activity.class);
         startActivity(intent);
     }
 
@@ -31,7 +35,7 @@ public class GuideActivity extends AppCompatActivity {
      */
 
     public void GetOff(View view) {
-        Intent intent = new Intent(GuideActivity.this, Activity.class);
+        Intent intent = new Intent(GuideActivity.this, Guidemenu2Activity.class);
         startActivity(intent);
     }
 

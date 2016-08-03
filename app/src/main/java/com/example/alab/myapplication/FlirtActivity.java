@@ -17,12 +17,16 @@ public class FlirtActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_flirt);
     }
+    public void playSound(View v) {
+        int id = v.getId();
+        SoundPlayer.playSound(id, this);
+    }
 
     /**
      * This method is called when the AvailableTonight button is clicked.
      */
     public void AvailableTonight(View view) {
-        Intent intent = new Intent(FlirtActivity.this, Activity.class);
+        Intent intent = new Intent(FlirtActivity.this, Flirtmenu1Activity.class);
         startActivity(intent);
     }
 
@@ -31,7 +35,7 @@ public class FlirtActivity extends AppCompatActivity {
      */
 
     public void HaveLunch(View view) {
-        Intent intent = new Intent(FlirtActivity.this, Activity.class);
+        Intent intent = new Intent(FlirtActivity.this, Flirtmenu2Activity.class);
         startActivity(intent);
     }
 
@@ -41,7 +45,7 @@ public class FlirtActivity extends AppCompatActivity {
      */
 
     public void Beautiful(View view) {
-        Intent intent = new Intent(FlirtActivity.this, Activity.class);
+        Intent intent = new Intent(FlirtActivity.this, Flirtmenu3Activity.class);
         startActivity(intent);
     }
 
@@ -50,7 +54,7 @@ public class FlirtActivity extends AppCompatActivity {
      */
 
     public void PhoneNumber(View view) {
-        Intent intent = new Intent(FlirtActivity.this, Activity.class);
+        Intent intent = new Intent(FlirtActivity.this, Flirtmenu4Activity.class);
         startActivity(intent);
     }
 
