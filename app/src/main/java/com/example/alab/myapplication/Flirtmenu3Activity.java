@@ -16,7 +16,7 @@ public class Flirtmenu3Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_extra);
+        setContentView(R.layout.activity_flirtmenu3);
     }
 
     public void playSound(View v) {

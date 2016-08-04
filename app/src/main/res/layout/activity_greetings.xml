@@ -13,26 +13,25 @@
 
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:background="#0D47A1"
-            android:gravity="center_horizontal"
-            android:padding="12dp"
+            style="@style/title"
             android:text="Greetings"
-            android:textAllCaps="true"
-            android:textColor="#FFFFfF"
-            android:textSize="24sp"
-            android:textStyle="bold" />
+             />
 
         <Button
             style="@style/HeaderFont"
             android:onClick="GoodMorning"
-            android:text="Good morning/ evening." />
+            android:text="Good morning." />
 
         <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@android:color/darker_gray" />
+            style="@style/Line" />
+
+        <Button
+            style="@style/HeaderFont"
+            android:onClick="GoodEvening"
+            android:text="Good evening." />
+
+        <View
+            style="@style/Line" />
 
 
         <Button
@@ -41,9 +40,7 @@
             android:text="Thanks you so much." />
 
         <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@android:color/darker_gray" />
+            style="@style/Line" />
 
         <Button
             style="@style/HeaderFont"
@@ -51,9 +48,7 @@
             android:text="Good bye." />
 
         <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@android:color/darker_gray" />
+            style="@style/Line" />
 
         <Button
             style="@style/HeaderFont"
@@ -61,9 +56,7 @@
             android:text="Sorry." />
 
         <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@android:color/darker_gray" />
+            style="@style/Line" />
 
         <Button
             style="@style/HeaderFont"
@@ -71,9 +64,7 @@
             android:text="Excuse me." />
 
         <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@android:color/darker_gray" />
+            style="@style/Line" />
 
         <Button
             style="@style/HeaderFont"
@@ -81,9 +72,7 @@
             android:text="Never mind." />
 
         <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@android:color/darker_gray" />
+            style="@style/Line" />
 
         <Button
             style="@style/HeaderFont"

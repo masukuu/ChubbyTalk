@@ -13,7 +13,7 @@ public class Greetingsmenu4Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_extra);
+        setContentView(R.layout.activity_greetingsmenu4);
     }
 
     public void playSound(View v) {

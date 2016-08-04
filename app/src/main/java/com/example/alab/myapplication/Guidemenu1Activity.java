@@ -13,7 +13,7 @@ public class Guidemenu1Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_extra);
+        setContentView(R.layout.activity_guidemenu1);
     }
 
     public void playSound(View v) {

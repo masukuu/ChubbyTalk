@@ -13,7 +13,7 @@ public class SwearWordsmenu1Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_extra);
+        setContentView(R.layout.activity_swearwordsmenu1);
     }
 
     public void playSound(View v) {

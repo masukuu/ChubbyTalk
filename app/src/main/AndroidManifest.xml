@@ -4,11 +4,12 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/icon"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-        <activity android:name=".GreetingsActivity">
+        <activity android:name=".MainActivity"
+            android:theme="@style/AppTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -16,12 +17,46 @@
             </intent-filter>
 
         </activity>
-        <activity android:name=".ExtraActivity" />
-        <activity android:name=".FlirtActivity" />
-        <activity android:name=".GuideActivity" />
-        <activity android:name=".ShopFoodActivity" />
-        <activity android:name=".SwearWordsActivity" />
+        <activity android:name=".TypesActivity"/>
 
+        <activity android:name=".GreetingsActivity"/>
+        <activity android:name=".Greetingsmenu0Activity"/>
+        <activity android:name=".Greetingsmenu1Activity"/>
+        <activity android:name=".Greetingsmenu2Activity"/>
+        <activity android:name=".Greetingsmenu3Activity"/>
+        <activity android:name=".Greetingsmenu4Activity"/>
+        <activity android:name=".Greetingsmenu5Activity"/>
+        <activity android:name=".Greetingsmenu6Activity"/>
+        <activity android:name=".Greetingsmenu7Activity"/>
+
+        <activity android:name=".ExtraActivity" />
+        <activity android:name=".Extramenu1Activity"/>
+        <activity android:name=".Extramenu2Activity"/>
+        <activity android:name=".Extramenu3Activity"/>
+        <activity android:name=".Extramenu4Activity"/>
+
+        <activity android:name=".FlirtActivity" />
+        <activity android:name=".Flirtmenu1Activity"/>
+        <activity android:name=".Flirtmenu2Activity"/>
+        <activity android:name=".Flirtmenu3Activity"/>
+        <activity android:name=".Flirtmenu4Activity"/>
+
+        <activity android:name=".GuideActivity" />
+        <activity android:name=".Guidemenu1Activity" />
+        <activity android:name=".Guidemenu2Activity" />
+
+        <activity android:name=".ShopFoodActivity" />
+        <activity android:name=".ShopFoodmenu1Activity"/>
+        <activity android:name=".ShopFoodmenu2Activity"/>
+        <activity android:name=".ShopFoodmenu3Activity"/>
+        <activity android:name=".ShopFoodmenu4Activity"/>
+
+        <activity android:name=".SwearWordsActivity" />
+        <activity android:name=".SwearWordsmenu1Activity"/>
+        <activity android:name=".SwearWordsmenu2Activity"/>
+        <activity android:name=".SwearWordsmenu3Activity"/>
+        <activity android:name=".SwearWordsmenu4Activity"/>
+        <activity android:name=".SwearWordsmenu5Activity"/>
     </application>
 
 

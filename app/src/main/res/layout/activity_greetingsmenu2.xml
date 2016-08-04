@@ -11,16 +11,9 @@
         android:orientation="vertical">
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:background="#0D47A1"
-            android:gravity="center_horizontal"
-            android:padding="12dp"
+            style="@style/menu_title"
             android:text="Thanks you so much."
-            android:textAllCaps="true"
-            android:textColor="#FFFFfF"
-            android:textSize="24sp"
-            android:textStyle="bold" />
+             />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -28,7 +21,7 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/skp_btn_1"
+                android:id="@+id/btn_cn_2"
                 style="@style/speaker"
                 android:layout_weight="1"
                 android:onClick="playSound" />
@@ -47,6 +40,7 @@
             android:orientation="horizontal">
 
             <ImageView
+                android:id="@+id/btn_k_2"
                 style="@style/speaker"
                 android:layout_weight="1"
                 android:onClick="playSound" />
@@ -65,6 +59,7 @@
             android:orientation="horizontal">
 
             <ImageView
+                android:id="@+id/btn_hk_2"
                 style="@style/speaker"
                 android:layout_weight="1"
                 android:onClick="playSound" />
@@ -82,6 +77,7 @@
             android:orientation="horizontal">
 
             <ImageView
+                android:id="@+id/btn_tw_2"
                 style="@style/speaker"
                 android:layout_weight="1"
                 android:onClick="playSound" />
@@ -99,6 +95,7 @@
             android:orientation="horizontal">
 
             <ImageView
+                android:id="@+id/btn_cz_2"
                 style="@style/speaker"
                 android:layout_weight="1"
                 android:onClick="playSound" />

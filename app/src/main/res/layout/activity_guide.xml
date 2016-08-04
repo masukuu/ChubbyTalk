@@ -8,46 +8,35 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#BBDEFB"
+        android:background="#ffffff"
         android:orientation="vertical">
 
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:background="#0D47A1"
-            android:gravity="center_horizontal"
-            android:padding="12dp"
-            android:text="Guide"
-            android:textAllCaps="true"
-            android:textColor="#FFFFfF"
-            android:textSize="24sp"
-            android:textStyle="bold" />
+            style="@style/title"
+            android:text="Ask the way"
+            />
 
         <Button
             style="@style/HeaderFont"
             android:onClick="Where"
-            android:text="Where is the xxx?" />
+            android:text="Where is the xxx?"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
 
         <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@android:color/darker_gray" />
+            style="@style/Line" />
 
 
         <Button
             style="@style/HeaderFont"
             android:onClick="GetOff"
-            android:text="Which stop should I get off?" />
+            android:text="Which stop should I get off?"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
 
         <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@android:color/darker_gray" />
+            style="@style/Line"
+             />
 
-<TextView
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:text="도움ㄹ처뉸펴어ㅠ쥬ㅠㅑ너뉴ㅗㅛ듀어ㅓ듕 "/>
+
     </LinearLayout>
 </ScrollView>

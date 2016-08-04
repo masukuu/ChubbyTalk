@@ -26,6 +26,14 @@ public class GreetingsActivity extends AppCompatActivity {
     }
 
     /**
+     * This method is called when the GoodMorning button is clicked.
+     */
+    public void GoodEvening(View view) {
+        Intent intent = new Intent(GreetingsActivity.this, Greetingsmenu1Activity.class);
+        startActivity(intent);
+    }
+
+    /**
      * This method is called when the Thank button is clicked.
      */
 

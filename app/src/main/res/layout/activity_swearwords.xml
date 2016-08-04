@@ -12,16 +12,9 @@
 
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:background="#0D47A1"
-            android:gravity="center_horizontal"
-            android:padding="12dp"
+            style="@style/title"
             android:text="Swear Words"
-            android:textAllCaps="true"
-            android:textColor="#FFFFfF"
-            android:textSize="24sp"
-            android:textStyle="bold" />
+            />
 
         <Button
             style="@style/HeaderFont"
@@ -29,9 +22,7 @@
             android:text="Go the hell" />
 
         <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@android:color/darker_gray" />
+            style="@style/Line" />
 
 
         <Button
@@ -40,9 +31,7 @@
             android:text="Eat shit" />
 
         <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@android:color/darker_gray" />
+            style="@style/Line" />
 
         <Button
             style="@style/HeaderFont"
@@ -50,9 +39,7 @@
             android:text="Are you idiot?" />
 
         <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@android:color/darker_gray" />
+            style="@style/Line" />
 
         <Button
             style="@style/HeaderFont"
@@ -60,9 +47,7 @@
             android:text="Fuck off" />
 
         <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@android:color/darker_gray" />
+            style="@style/Line" />
 
         <Button
             style="@style/HeaderFont"
@@ -70,8 +55,6 @@
             android:text="WTF" />
 
         <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@android:color/darker_gray" />
+            style="@style/Line" />
     </LinearLayout>
 </ScrollView>
