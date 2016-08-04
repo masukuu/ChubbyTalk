@@ -43,7 +43,7 @@
                 android:id="@+id/btn_k_25"
                 style="@style/speaker"
                 android:layout_weight="1"
-                android:onClick="playSound" />
+                android:onClick="" />
 
             <TextView
                 android:id="@+id/korean"
@@ -81,7 +81,7 @@
                 android:id="@+id/btn_tw_25"
                 style="@style/speaker"
                 android:layout_weight="1"
-                android:onClick="playSound" />
+                android:onClick="" />
 
             <TextView
                 style="@style/text"
@@ -99,7 +99,7 @@
                 android:id="@+id/btn_cz_25"
                 style="@style/speaker"
                 android:layout_weight="1"
-                android:onClick="playSound" />
+                android:onClick="" />
 
             <TextView
                 style="@style/text"
