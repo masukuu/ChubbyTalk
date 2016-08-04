@@ -40,4 +40,9 @@ public class TypesActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void Extra(View view) {
+        Intent intent = new Intent(this, ExtraActivity.class);
+        startActivity(intent);
+    }
+
 }
